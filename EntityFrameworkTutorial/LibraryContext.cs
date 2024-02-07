@@ -36,7 +36,7 @@ namespace EntityFrameworkTutorial
             optionsBuilder.UseSqlServer(connectionString);
 
             //optionsBuilder.LogTo(Console.WriteLine);
-            optionsBuilder.UseLazyLoadingProxies();
+            //optionsBuilder.UseLazyLoadingProxies();
 
         }
 
